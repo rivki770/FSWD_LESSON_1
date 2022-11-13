@@ -1,0 +1,24 @@
+.blueTable {
+    border-collapse: collapse;
+    border: 1px #ccc solid;
+    color: rgb(77, 76, 76);
+    text-align: center;
+    margin: auto;
+}
+
+.blueTable td,
+.blueTable th {
+    padding: 5px;
+}
+
+.blueTable tr:nth-child(even) {
+    background: #eee
+}
+
+.blueTable thead {
+    background: blue;
+}
+
+.blueTable thead th {
+    color: #FFF;
+}
