@@ -1,3 +1,6 @@
+body {
+    margin-bottom:50px;
+}
 .blueTable {
     border-collapse: collapse;
     border: 1px #ccc solid;
@@ -22,3 +25,14 @@
 .blueTable thead th {
     color: #FFF;
 }
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    height: 50px;
+}
+ 
