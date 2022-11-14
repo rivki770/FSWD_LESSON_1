@@ -1,5 +1,5 @@
 body {
-    margin-bottom:50px;
+    margin-bottom:75px;
 }
 .blueTable {
     border-collapse: collapse;
@@ -33,6 +33,13 @@ footer {
     background-color: blue;
     color: white;
     text-align: center;
-    height: 50px;
+    height: 75px;
 }
+footer ul li{
+    display: inline-block;
+    list-style-type: none;
+    text-align: center;
+    margin: 0 1.5%;
+  }
+
  
