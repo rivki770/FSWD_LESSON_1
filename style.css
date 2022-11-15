@@ -1,6 +1,51 @@
-body {
-    margin-bottom:75px;
+* {
+    box-sizing: border-box;
+  }
+
+html body{
+    margin: 20px;
 }
+
+.header{
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    background-color: blue;
+    margin: 0;
+}
+
+.header_-list {
+    padding-left: 1em;
+}
+
+.nav__list{
+    display:flex;
+    justify-content: space-around;
+    align-items:center;
+    background-color: rgba(255, 217, 47, 0.659);
+    margin: 0;
+    height: auto;
+    padding: 10px;
+    list-style: none;
+}
+
+.nav__item a, .nav__item a:visited{
+    text-decoration: none;
+    color: black;
+}
+
+.nav__item a:hover{
+    color:blue;
+
+}
+
+.image_logo {
+    width: 10%;
+}
+
+
+/* table */
+
 .blueTable {
     border-collapse: collapse;
     border: 1px #ccc solid;
@@ -9,10 +54,10 @@ body {
     margin: auto;
 }
 
-.blueTable td,
-.blueTable th {
-    padding: 5px;
+.blueTable th, .blueTable td{
+    padding: 20px;
 }
+
 
 .blueTable tr:nth-child(even) {
     background: #eee
@@ -25,21 +70,70 @@ body {
 .blueTable thead th {
     color: #FFF;
 }
+
+/* footer */
+
 footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
     background-color: blue;
     color: white;
+    font-size: large;
+    padding: 2.5em 0;
+    width: 100%;
     text-align: center;
-    height: 75px;
+    margin-top: 50px;
 }
-footer ul li{
+
+.social-list{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+.social-list__item, .header_-list__item{
     display: inline-block;
     list-style-type: none;
+    justify-content: space-between;
+    margin: 0 0.5em;
+    width: 20px;
+}
+
+
+.header_-list__link, .header_-list__link:visited{
+    color: white;
+}
+
+.social-list__link, .social-list__link:visited{
+    color: white;
+}
+
+
+  /* grid - image */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    padding: 10px;
+}
+
+.item {
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 16px;
     text-align: center;
-    margin: 0 1.5%;
+  }
+
+section div img {
+    width: 70%;
+    height: auto;
+  }
+
+ section div img:hover{
+    transform: scale(1.1);
+    opacity: 0.8;
+  }
+
+  h2 {
+    text-align: center;
   }
 
  
