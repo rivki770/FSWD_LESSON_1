@@ -17,24 +17,27 @@
 
 <body>
     <header>
-        <img src="./image/logo2.png" alt="">
-        <ul class="social-list">
-            <li class="social-list__item">
-                <a class="social-list__link" href="./log_in.html">
-                    <i class="fa fa-sign-in"></i>
-                </a>
-            </li>
-            <li class="social-list__item">
-                <a class="social-list__link" href="">
-                    <i class="fa fa-heart"></i>
-                </a>
-            </li>
-            <li class="social-list__item">
-                <a class="social-list__link" href="">
-                    <i class="fa fa-shopping-cart"></i>
-                </a>
-            </li>
-        </ul>
+        <div class="header">
+            <img class="image_logo" src="./image/logo2.png" alt="">
+            <ul class="header_-list">
+                <li class="header_-list__item">
+                    <a class="header_-list__link" href="./log_in.html">
+                        <i class="fa fa-sign-in"></i>
+                    </a>
+                </li>
+                <li class="header_-list__item">
+                    <a class="header_-list__link" href="">
+                        <i class="fa fa-heart"></i>
+                    </a>
+                </li>
+                <li class="header_-list__item">
+                    <a class="header_-list__link" href="">
+                        <i class="fa fa-shopping-cart"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
         <nav class="nav">
             <ul class="nav__list">
                 <li class="nav__item"><a href="main_page.html#shirts" class="nav__link">חולצות</a></li>
@@ -42,14 +45,15 @@
                 <li class="nav__item"><a href="main_page.html#dresses" class="nav__link">שמלות</a></li>
                 <li class="nav__item"><a href="main_page.html#shoes" class="nav__link">נעליים</a></li>
                 <li class="nav__item"><a href="main_page.html#accessories" class="nav__link">אקססוריז</a></li>
-                <li class="nav__item"><a href="sign_in.html" class="nav__link">התחברות / הרשמה</a></li>
                 <li class="nav__item"><a href="main_page.html#size_table" class="nav__link">המרת מידות</a></li>
+                <li class="nav__item"><a href="log_in.html" class="nav__link">התחברות / הרשמה</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
-        <section id="shirts">
+        <h2  id="shirts">חולצות:</h2>
+        <section class="grid-container">
             <div class="item">
                 <img src="./image/Shirts/shirt_1.jpg" alt="">
                 <div class="description">
@@ -163,7 +167,8 @@
             </div>
         </section>
 
-        <section id="skirts">
+        <h2 id="skirts">חצאיות:</h2>
+        <section class="grid-container">
             <div class="item">
                 <img src="./image/Skirts/skirt_1.jpg" alt="">
                 <div class="description">
@@ -270,7 +275,8 @@
             </div>
         </section>
 
-        <section id="dresses">
+        <h2 id="dresses">שמלות:</h2>
+        <section class="grid-container">
             <div class="item">
                 <img src="./image/Dresses/dress_1.jpg" alt="">
                 <div class="description">
@@ -377,11 +383,13 @@
             </div>
         </section>
 
-        <section id="shoes">
+        <h2 id="shoes">נעליים:</h2>
+        <section class="grid-container">
 
         </section>
 
-        <section id="accessories">
+        <h2 id="accessories">אקססוריז:</h2>
+        <section class="grid-container">
             <div class="item">
                 <img src="./image/Accessories/accessories_1.jpg" alt="">
                 <div class="description">
@@ -490,7 +498,7 @@
 
         <section id="size_table">
             <div>
-                <h2>המרת מידות לנעליים</h2>
+                <h2>המרת מידות נעליים</h2>
                 <table class="blueTable">
                     <thead>
                         <tr>
@@ -705,7 +713,7 @@
                 </a>
             </li>
         </ul>
-        <P>&copyהכל הזכויות שמורות לשרה ורבקי!</p>
+        <P>&copy כל הזכויות שמורות לשרה ורבקי.</p>
     </footer>
 </body>
 </html>
